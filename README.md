@@ -1,7 +1,7 @@
-# geoscript-groovy
+# geoscript-groovy-docker
 
 ### Description
-*geoscript-groovy* is a vanilla installation and configuration of the Groovy and Geoscript binaries in a Docker image.
+*geoscript-groovy-docker* is a vanilla installation and configuration of the Groovy and Geoscript binaries in a Docker image.
 
 A container created from this image containing a volume mount can run regular groovy scripts, and those that contain Geoscript functionality.
 
