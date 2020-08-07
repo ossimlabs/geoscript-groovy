@@ -7,8 +7,8 @@ A container created from this image containing a volume mount can run regular gr
 
 ### Usage
 The following will build and then run a docker image mounted to a local scripts directory.  The directory contains a Groovy script that contains Geoscript items.
-1. Build the docker image by running the build-docker.sh script
-2. Run the docker image by running the run-docker.sh script
+1. Build the docker image by running the script: `$ build-docker.sh`
+2. Run the docker image by running the script: `$ run-docker.sh`
 
 The expected output is a WKT string of a buffered point:
 ```
@@ -16,4 +16,4 @@ POLYGON ((10 0, 9.807852804032304 -1.9509032201612824, 9.238795325112868 -3.8268
 ```
 
 #### Optional
-Modify the push-docker.sh script with your remote Docker registry of choice.
+Modify the `push-docker.sh` script with your remote Docker registry of choice.
