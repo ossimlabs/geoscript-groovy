@@ -1,6 +1,5 @@
 FROM adoptopenjdk/openjdk8:centos
 
-# TODO: Make this one command
 RUN yum update -y && \
     yum install -y curl wget which zip unzip
 
